@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.dromara</groupId>
         <artifactId>soul</artifactId>
-        <version>2.3.1-SNAPSHOT</version>
+        <version>2.3.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -32,24 +32,9 @@
         <module>soul-plugin-api</module>
         <module>soul-plugin-base</module>
         <module>soul-plugin-divide</module>
-        <module>soul-plugin-alibaba-dubbo</module>
-        <module>soul-plugin-apache-dubbo</module>
-        <module>soul-plugin-ratelimiter</module>
-        <module>soul-plugin-monitor</module>
-        <module>soul-plugin-sign</module>
-        <module>soul-plugin-hystrix</module>
         <module>soul-plugin-springcloud</module>
         <module>soul-plugin-httpclient</module>
-        <module>soul-plugin-rewrite</module>
-        <module>soul-plugin-waf</module>
         <module>soul-plugin-global</module>
-        <module>soul-plugin-sentinel</module>
-        <module>soul-plugin-resilience4j</module>
-        <module>soul-plugin-sofa</module>
-        <module>soul-plugin-tars</module>
         <module>soul-plugin-context-path</module>
-        <module>soul-plugin-grpc</module>
-        <module>soul-plugin-redirect</module>
-        <module>soul-plugin-dubbo-common</module>
     </modules>
 </project>

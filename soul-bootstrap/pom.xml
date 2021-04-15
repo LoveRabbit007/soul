@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.dromara</groupId>
         <artifactId>soul</artifactId>
-        <version>2.3.1-SNAPSHOT</version>
+        <version>2.3.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>soul-bootstrap</artifactId>
@@ -50,11 +50,6 @@
         </dependency>
 
         <!--if you use http proxy start this-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-divide</artifactId>
-            <version>${project.version}</version>
-        </dependency>
 
         <!-- soul httpclient plugin start-->
         <dependency>
@@ -73,59 +68,31 @@
         <!-- soul global plugin end-->
 
         <!-- soul ratelimiter plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-ratelimiter</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul ratelimiter plugin end-->
 
         <!-- soul hystrix plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-hystrix</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul hystrix plugin end-->
 
         <!-- soul waf plugin starter-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-waf</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul waf plugin end-->
 
         <!-- soul monitor plugin starter-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-monitor</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul monitor plugin end-->
 
         <!-- soul sign plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-sign</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul sign plugin end-->
 
         <!-- soul resilience4j plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-resilience4j</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul resilience4j plugin end-->
 
         <!-- soul sentinel plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-sentinel</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul sentinel plugin end-->
 
         <!-- soul context-path plugin start-->
@@ -137,27 +104,15 @@
         <!-- soul context-path plugin end-->
 
         <!-- soul redirect plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-redirect</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul redirect plugin end-->
 
         <!-- soul redirect plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-rewrite</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!-- soul redirect plugin end-->
         
         <!--soul tars plugin end-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-tars</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
 
         <dependency>
             <groupId>com.tencent.tars</groupId>
@@ -167,11 +122,7 @@
         <!--soul tars plugin end-->
 
         <!--soul grpc plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-grpc</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <!--soul grpc plugin end-->
         
         <!--soul sofa plugin start-->
@@ -195,11 +146,7 @@
             <artifactId>curator-recipes</artifactId>
             <version>4.0.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-sofa</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>org.dromara</groupId>
             <artifactId>soul-spring-boot-starter-sync-data-nacos</artifactId>
@@ -281,11 +228,7 @@
         <!-- soul  apache dubbo plugin end-->
 
         <!--soul alibaba dubbo plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-alibaba-dubbo</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -309,25 +252,13 @@
         <!-- soul  alibaba dubbo plugin end-->
 
         <!--soul data sync start use zookeeper-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-sync-data-zookeeper</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
 
         <!--soul data sync start use websocket-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-sync-data-websocket</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
 
         <!--soul data sync start use http-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-sync-data-http</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
       
     </dependencies>
 

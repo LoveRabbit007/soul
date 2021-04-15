@@ -33,19 +33,13 @@
     </parent>
 
     <properties>
-        <soul.version>2.3.1-SNAPSHOT</soul.version>
+        <soul.version>2.3.2-SNAPSHOT</soul.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
     </properties>
 
     <modules>
-        <module>soul-examples-http</module>
-        <module>soul-examples-dubbo</module>
         <module>soul-examples-springcloud</module>
-        <module>soul-examples-eureka</module>
-        <module>soul-examples-sofa</module>
-        <module>soul-examples-tars</module>
-        <module>soul-examples-grpc</module>
     </modules>
 
     <build>
