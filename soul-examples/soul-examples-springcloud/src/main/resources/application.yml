@@ -14,7 +14,7 @@
 # limitations under the License.
 
 server:
-  port: 8884
+  port: 7884
   address: 0.0.0.0
 
 spring:
@@ -42,7 +42,7 @@ soul:
     serverLists:  192.168.10.154:8848 #localhost:2181 #http://localhost:2379 #localhost:8848
     props:
       contextPath: /springcloud
-      port: 8884
+      port: 7884
       nacosNameSpace: SoulRegisterCenter
 
 logging:
