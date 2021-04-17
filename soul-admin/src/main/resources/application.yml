@@ -39,7 +39,7 @@ mybatis:
 soul:
   register:
     registerType: nacos #http #zookeeper #etcd #nacos #consul
-    serverLists: 192.168.10.154:8848 #localhost:2181 #http://localhost:2379 #localhost:8848
+    serverLists: localhost:8848 #localhost:2181 #http://localhost:2379 #localhost:8848
     props:
       sessionTimeout: 5000
       connectionTimeout: 2000
@@ -53,7 +53,7 @@ soul:
     init_enable: true
   sync:
     nacos:
-      url:  192.168.10.154:8848
+      url:  localhost:8848
       namespace: 1c10d748-af86-43b9-8265-75f487d20c6c
     websocket:
       enabled: false

@@ -25,7 +25,7 @@ spring:
    cloud:
     nacos:
        discovery:
-          server-addr: 192.168.10.154:8848
+          server-addr: localhost:8848
 
 management:
   health:
@@ -41,7 +41,7 @@ soul:
       parameter: multi
     sync:
       nacos:
-        url:  192.168.10.154:8848
+        url:  localhost:8848
         namespace: 1c10d748-af86-43b9-8265-75f487d20c6c
 #        websocket :
 #             urls: ws://localhost:9095/websocket
